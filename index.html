@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <!-- Meta -->
+     <meta charset="UTF-8">
+     <meta name="keywords" content="HTML,CSS,JavaScript,list-insertion-model">
+     <meta name="author" content="Oyedeji Peace">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Title -->
+     <title>List-Insertion-Model</title>
+     <!-- css -->
+     <link rel="stylesheet" type="text/css" href="index.css" />
+     <!-- font -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lobster|Oxygen|PT+Serif" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header">List Insertion Model</div>
+    </header>
+    <main>
+        <div class="note-list">
+            <div id="list-head">
+                <b>List</b>
+            </div>
+            <div>
+                <noteList>
+                    <div id='listed'>
+                    </div>
+                </noteList>
+            </div>
+        </div>
+        <div class="note-field">
+            <div id="note-head">
+                <b>Your Notepad</b>
+            </div>
+            <div>
+                <notepad id="notepad">
+                        <textarea id="body-field"></textarea>
+                </notepad>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <button id="btn-save" onclick="createText()">Save</button>
+    </footer>
+</body>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<script type='text/javascript' src='index.js'></script>
+
+</html>

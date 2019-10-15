@@ -1,0 +1,117 @@
+header {
+    text-align: left;
+    font-weight: 800;
+    font-size: 28px;
+    border-bottom: solid 3px #DEDEDE;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header {
+  font-size: 3rem;
+  }
+
+  footer {
+    display: flex;
+    flex-flow: row-reverse;
+    padding: 5px 20px;
+  }
+  
+  .headers {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: 20px;
+  }
+  
+  #list-head {
+    margin-left: 2.5%;
+    display: inline-block;
+  }
+
+  b {
+  font-size: 2rem;
+  }
+
+  #note-head {
+    margin-left: 5%;
+    display: inline-block;
+  }
+
+  main{
+      width:100%;
+      display: inline-flex;
+      text-align: center;
+      margin-top: 2rem;
+  }
+
+.note-list{
+    width: 40%;
+}
+
+.note-field{
+    width: 60%;
+}
+
+noteList {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 60vh;
+    overflow: scroll;
+    border: solid 3px #929292;
+    background-color: #DEDEDE;
+}
+
+  .list-date {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+    color: white;
+  }
+  
+  .list-text {
+    padding: 0 5px 5px 5px;
+    color:white;
+  }
+  
+  notePad {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 60vh;
+    overflow: scroll;
+    border: solid 3px black;
+}
+
+  #body-field {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 5px;
+  }
+  
+  #body-field {
+    font-size: 14px;
+    font-weight: 500;
+    height: 400px;
+  }
+  
+  button {
+    margin: 5px;
+    border: solid 3px grey;
+    border-radius: 10%;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #DEDEDE;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  #btn-save {
+    background-color: #2F5032;
+  }
